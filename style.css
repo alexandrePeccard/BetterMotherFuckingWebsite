@@ -1,0 +1,21 @@
+body {
+	font-family: Times New Roman, Helvetica, Arial, sans-serif;
+}
+#container {
+	line-height:1.6;
+	font-size:18px;
+	max-width:650px;
+	margin: 40px auto;
+
+	padding:0px;
+}
+h1, h2, h3 {
+	line-height:1.2;
+	text-align: justify;
+}
+h1, h2, h3, ul li, p {
+	filter: contrast(50%);
+}
+blockquote {
+	filter: contrast(50%);	
+}
