@@ -4,10 +4,12 @@ function onConfirm() {
 	window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
 }
 function showPopup() {
-	window.alert(msgPopUp);
-	if (confirm("Souhaitez-tu être redirigé vers le site xxxvidsxxx.com ?")) {
-		onConfirm();
-	}
+	setTimeout(function() {
+		window.alert(msgPopUp);
+		if (confirm("Souhaitez-tu être redirigé vers le site xxxvidsxxx.com ?")) {
+			onConfirm();
+		}
+	}, 10000);
 }
 
 function customizeParagraph(options) {
